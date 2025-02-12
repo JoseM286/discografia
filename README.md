@@ -24,11 +24,11 @@ Para ejecutar este proyecto en tu entorno local, necesitas:
 
 2. Mueve la carpeta del proyecto a la carpeta htdocs de XAMPP.
 3. Inicia el servidor Apache y MySQL desde el panel de control de XAMPP.
-4. Importa la base de datos:
-    4.1. Abre phpMyAdmin en tu navegador (http://localhost/phpmyadmin).
-    4.2. Crea una nueva base de datos llamada discografia.
-    4.3. Importa el archivo discografia.sql que se encuentra en la carpeta del proyecto.
-5. Configura la conexión a la base de datos en config.php:
+4. Importa la base de datos:  
+    - **4.1** Abre phpMyAdmin en tu navegador (http://localhost/phpmyadmin).  
+    - **4.2** Crea una nueva base de datos llamada `discografia`.  
+    - **4.3** Importa el archivo `discografia.sql` que se encuentra en la carpeta del proyecto.  
+1. Configura la conexión a la base de datos en config.php:
 
 $host = 'localhost';
 $user = 'root';
